@@ -8,6 +8,6 @@ function arrayUnique(array $arr) {
     }
 
     return $resultArr;
-}
-
-print_r(arrayUnique([1, 2, 2, 3, 1, 3, 3, 4]));
+} 
+ 
+print_r(arrayUnique([1, 2, 2, 3, 1, 3, 3, 4])); 

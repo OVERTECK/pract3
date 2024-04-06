@@ -19,7 +19,7 @@ function сipherCaesar(string $text, int $key) {
         $resultWord .= $arrLettes[$indexLetterInArrLetters + $key];
     }
 
-    return $resultWord;
+    return $resultWord; 
 }
 
 echo сipherCaesar("абвгдеёжзийклмнопрстуфхцчшщъыьэюя", 3);

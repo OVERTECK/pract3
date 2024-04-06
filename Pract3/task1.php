@@ -11,10 +11,10 @@ function mostRecent(string $text) {
         if ($value == max(array_count_values($text))) {
             $resultWord = $key;
             break;
-        }
+        } 
     }
 
     return $resultWord;
 }
-
+ 
 print_r(mostRecent("3 1 1 1 1 2 2 2 2"));
