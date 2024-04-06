@@ -17,4 +17,4 @@ function mostRecent(string $text) {
     return $resultWord;
 }
 
-print_r(mostRecent("2 2 1 2  2 1 1"));
+print_r(mostRecent("3 1 1 1 1 2 2 2 2"));
